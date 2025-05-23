@@ -13,8 +13,7 @@ If the tool you are using asks you to specify http or https, write the following
 
 # Usage
 
-python3 autostrike.py
-set your target url/ip
+python3 autostrike.py | set your target url/ip
 
 # YouTube Video
 
