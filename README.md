@@ -4,7 +4,7 @@ I developed this project to easily automate manual tools.
 It's very easy to use. Specify the path and parameters of the tools in your inventory.
 
 tools.txt example:
-/usr/bin/nmap -p- -T3 -Pn {target} --open
+/usr/bin/nmap -p- {target} --open
 /usr/bin/whois --verbose {target}
 
 When you run the autostrike.py file and specify the target, it pulls the parameters from the tools.txt file and runs it, and the output is saved to the output.txt file.
